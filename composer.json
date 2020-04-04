@@ -1,0 +1,26 @@
+{
+    "name": "codebox/contact",
+    "description": "Makes contact form for you and saving data into database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mahmoud",
+            "email": "mahmoudsalem1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codebox\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codebox\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
